@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven()
     }
 
     dependencies {
@@ -14,6 +15,7 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        maven()
     }
 }
 apply plugin: 'com.android.library'
